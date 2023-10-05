@@ -507,35 +507,53 @@ header.sticky{
 button:hover{
 	background: #04ff00;
 }
-/*  */
-.form {
-    max-width: 400px;
+/*  */.contactus{
+	background: url(../img/contact.jpg);
+	background-size:cover;
+	position: relative;
+}
+.contactus h1{
+	text-align: center;
+	
+}
+.contactus form {
+	
+    max-width: 100%;
+	width: 400 px;
     margin: 0 auto;
+	padding: 20px 15px 20px 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 20%;
+	margin: 10%;
+}
+.contactus input{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 15px 20px 30px;
+	box-shadow: 5px 10px 30px rgba(0, 200, 255, 0.2);
+	outline: none;
+	border: none;
+	border-radius: 15px;
 }
 
 h4 {
     margin-top: 10px;
 }
 
-.i1 input[type="email"],
-input[type="tel"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    font-size: 16px;
+
+.contactus textarea {
+	display: inline-block;
+	width: 100%;
+	padding: 20px 15px 20px 30px;
+	box-shadow: 5px 10px 30px rgba(0, 200, 255, 0.2);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	resize: none; 
 }
 
-textarea {
-    resize: vertical; /* Allow vertical resizing of the textarea */
-}
+
 
 button[type="submit"] {
     background-color: #6ea8e7;
