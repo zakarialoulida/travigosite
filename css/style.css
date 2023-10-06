@@ -8,7 +8,7 @@
 	scroll-behavior: smooth;
 }
 :root{
-	--bg-color: #ff1212;
+	--bg-color: #ffffff;
 	--text-color: #221314;
 	--second-color: #5a7184;
 	--main-color: #54b5fa;
@@ -489,28 +489,11 @@ header.sticky{
 		transition: .2s;
 	}
 }
-/*form{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 20%;
-}*/
-/*button{
-	background: #ffffff;
-	
-	border-radius: 20%;
-	padding: 5px;
-	margin:5px ;
-	cursor: pointer;
-	width: 20%;
-}
-button:hover{
-	background: #04ff00;
-}
-/*  */.contactus{
-	background: url(../img/contact.jpg);
-	background-size:cover;
-	position: relative;
+contactus{
+	background: url(../img/Untitled_design_2.png);
+	background-size: cover;
+	position:relative;
+	margin-top: 20px;
 }
 .contactus h1{
 	text-align: center;
