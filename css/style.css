@@ -489,7 +489,7 @@ header.sticky{
 		transition: .2s;
 	}
 }
-contactus{
+.contactus{
 	background: url(../img/Untitled_design_2.png);
 	background-size: cover;
 	position:relative;
