@@ -8,7 +8,7 @@
 	scroll-behavior: smooth;
 }
 :root{
-	--bg-color: #fff;
+	--bg-color: #ff1212;
 	--text-color: #221314;
 	--second-color: #5a7184;
 	--main-color: #54b5fa;
@@ -21,8 +21,8 @@ body{
 	color: var(--text-color);
 }
 .logo{
-	width: 8%;
-	height: 8%;
+	width: 15%;
+	height: 15%;
 }
 
 
@@ -180,7 +180,7 @@ header.sticky{
 
 .title{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 20%;
 }
 .title h2{
 	font-size: var(--h2-font);
@@ -188,7 +188,7 @@ header.sticky{
 }
 .package-content{
 	display: grid;
-	grid-template-columns: auto 32% auto;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
@@ -242,14 +242,14 @@ header.sticky{
 	grid-template-columns: repeat(auto-fit, minmax(340px, auto));
 	grid-gap: 2rem;
 	align-items: center;
-	margin-top: 1rem;
+	margin-top: 5rem;
 }
 .col-content, .blog-content{
 	position: relative;
 }
 .col-content img, .blog-content img{
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	object-fit: cover;
 	border-radius: 15px;
 	filter: brightness(80%);
