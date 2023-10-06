@@ -490,10 +490,13 @@ header.sticky{
 	}
 }
 .contactus{
-	background: url(../img/Untitled_design_2.png);
+	background: url(../img/contact.jpg);
 	background-size: cover;
 	position:relative;
-	margin-top: 20px;
+	
+
+	width: 100%;
+	height: 100vh;
 }
 .contactus h1{
 	text-align: center;
@@ -518,16 +521,20 @@ header.sticky{
 	outline: none;
 	border: none;
 	border-radius: 15px;
+	
 }
 
 h4 {
     margin-top: 10px;
+	color:#1067cc;
+
 }
 
 
 .contactus textarea {
 	display: inline-block;
 	width: 100%;
+	height: 50%;
 	padding: 20px 15px 20px 30px;
 	box-shadow: 5px 10px 30px rgba(0, 200, 255, 0.2);
 	outline: none;
@@ -545,13 +552,28 @@ button[type="submit"] {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+	margin-bottom: 50%;
 }
 
 button[type="submit"]:hover {
     background-color: #0056b3;
 }
 .navtour{
-	background: #61a3ef;
+	background-color: var(--main-color);
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	 z-index: 1000; 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 18%;
+	transition: ease .40s; 
+}
+.nav_contact{
+
+background:transparent;
 	position: fixed;
 	top: 0;
 	right: 0;
